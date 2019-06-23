@@ -1,6 +1,4 @@
-ORACLE SQL 실습자료
-
-* 실습용 sample db 설치방법
+< ORACLE SQL 실습자료 - 실습용 sample db 설치방법 >
 
 sampleDB.zip 파일의 압축을 풀고
 
