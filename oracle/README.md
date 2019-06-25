@@ -1,4 +1,4 @@
-* 실습과제는 소스파일을 아래 파일명으로 digicope@aicore.co.kr 강사 메일로 제출하세요
+* 실습과제는 작성된 소스파일을 아래 파일명으로 digicope@aicore.co.kr 강사 메일로 제출하세요
  -------
 "홍길동_SQL실습과제-SELECT문.sql"
  -------
