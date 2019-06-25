@@ -22,6 +22,9 @@ SQL> @C:\sampleDB\ec.sql
 
 SQL> @C:\sampleDB\ec_data.sql
 
+SQL> @C:\sampleDB\ec_order.sql
+
+SQL> @C:\sampleDB\ec_basket.sql
 
 --테이블이 생성 되었는지 확인해본다
 
