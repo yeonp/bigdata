@@ -1,3 +1,8 @@
+* 실습과제는 digicope@aicore.co.kr 메일로 제출하세요
+
+
+
+
 < ORACLE SQL 실습자료 - 실습용 sample DB 설치방법 >
 
 sampleDB.zip 파일의 압축을 풀고
