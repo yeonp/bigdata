@@ -1,4 +1,9 @@
-* 실습과제는 digicope@aicore.co.kr 메일로 제출하세요
+* 실습과제는 digicope@aicore.co.kr 아래 파일명으로 소스를 메일로 제출하세요
+
+
+"홍길동_SQL실습과제-SELECT문.sql"
+
+
 
 
 
