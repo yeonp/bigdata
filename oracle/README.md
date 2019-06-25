@@ -1,9 +1,9 @@
 * 실습과제는 digicope@aicore.co.kr 아래 파일명으로 소스를 메일로 제출하세요
-.
+ .
 "홍길동_SQL실습과제-SELECT문.sql"
-.
-.
-.
+ .
+ .
+ .
 < ORACLE SQL 실습자료 - 실습용 sample DB 설치방법 >
 
 sampleDB.zip 파일의 압축을 풀고
