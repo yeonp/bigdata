@@ -25,6 +25,8 @@ SQL> @C:\sampleDB\ec_data.sql
 
 --테이블이 생성 되었는지 확인해본다
 
+SELECT * FROM USER_CATALOG;
+
 SQL> DESC Student;
 
 SQL> DESC EC_Product;
