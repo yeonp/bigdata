@@ -19,4 +19,4 @@ head(result)
 
 dbDisconnect(conn)
 
-dbListTables(conn)
+# dbListTables(conn)
