@@ -1,7 +1,7 @@
 #numeric_ex.py
 
-#1¹ø
-print( '{0:=^50}'.format( '1¹ø' ) )
+#1
+print( '{0:=^50}'.format( '1Â¹Ã¸' ) )
 velocity = input( 'Input velocity : ' )
 distance = input( 'Input distance : ' )
 
@@ -13,8 +13,8 @@ print( 'velocity : {0:<6.2f}'.format( float( velocity ) ) )
 print( 'distance : {0:<6.2f}'.format( float( distance ) ) )
 print( 'time     : {0:<6.2f}'.format( time ) )
 
-#2¹ø
-print( '{0:=^50}'.format( '2¹ø' ) )
+#2
+print( '{0:=^50}'.format( '2Â¹Ã¸' ) )
 length = input( 'Input length : ' )
 width = input( 'Input width : ' )
 
@@ -28,8 +28,8 @@ print( 'length : {0:<6.2f}\twidth : {1:<6.2f}'.format( float( length ), float( w
 print( 'area : {0:<6.2f}'.format( area ) )
 print( 'circumference : {0:<6.2f}'.format( circumference ) )
 
-#3¹ø
-print( '{0:=^50}'.format( '3¹ø' ) )
+#3
+print( '{0:=^50}'.format( '3Â¹Ã¸' ) )
 fahrenheit = float( input( 'Input fahrenheit : ' ) )
 
 celsius = ( fahrenheit - 32 ) / 1.8
@@ -37,8 +37,8 @@ celsius = ( fahrenheit - 32 ) / 1.8
 print()
 print( 'fahrenheit : {0:<6.2f} -> celsius : {1:<6.2f}'.format( fahrenheit, celsius ) )
 
-#4¹ø
-print( '{0:=^50}'.format( '4¹ø' ) )
+#4
+print( '{0:=^50}'.format( '4Â¹Ã¸' ) )
 number1 = int( input( 'Input number1 : ' ) )
 number2 = int( input( 'Input number2 : ' ) )
 
