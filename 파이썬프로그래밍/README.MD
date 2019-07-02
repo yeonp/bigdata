@@ -46,7 +46,7 @@
 	
 	    Name : hong gil dong
 	    Birthday : 2019/12/12
-	    ID Number : 20141212-1623210
+	    ID Number : 20191212-1623210
 	
 2. s = 'PythonProgramming' 내용을 문자열 슬라이싱과 문자열 
        연결하기를 이용하여   'ProgrammingPython' 으로 변경하여 출력하시오.
