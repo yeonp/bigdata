@@ -46,10 +46,12 @@ add = number1 + number2
 subtract = number1 - number2
 multiple = number1 * number2
 divide = number1 / number2
+mod = number1 % number2
 
 print()
 print( '{0:^6} + {1:^6} = {2:<6}'.format( number1, number2, add ) )
 print( '{0:^6} - {1:^6} = {2:<6}'.format( number1, number2, subtract ) )
 print( '{0:^6} * {1:^6} = {2:<6}'.format( number1, number2, multiple ) )
 print( '{0:^6} / {1:^6} = {2:<6.2f}'.format( number1, number2, divide ) )
+print( '{0:^6} % {1:^6} = {2:<6.2f}'.format( number1, number2, mod ) )
 
