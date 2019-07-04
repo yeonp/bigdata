@@ -42,9 +42,9 @@ s = s2.difference(s1)
 print(s)
 
 # 8
-#s = s2 - 1
-       # TypeError: unsupported operand type(s)
-       # for -: 'set' and 'int'
+s1.remove(1)
+print(s1)
+
 # 9
 s = s1.symmetric_difference(s2)
 print(s)
