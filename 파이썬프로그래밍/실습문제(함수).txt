@@ -48,3 +48,8 @@ if __name__ == '__main__' :
     Nam  70 70 70 210 70.0
     
 -구현될 함수: calcScore(), inputStudentInfo(), printScoreTable() 
+calcScore() : 과목 리스트를 인자로 받아 총점,평균,등급을 구해서 반환
+inputStudentInfo() : 성명 및 성적을 입력받고, calcScore()함수를 
+           호출하고 named tupled을 만들어 학생 리스트에 저장한다
+printScoreTable():학생 리스트내의 데이터를 화면에 출력한다                   
+                    
