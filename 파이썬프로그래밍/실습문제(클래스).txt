@@ -1,6 +1,8 @@
 ﻿[ 클래스 기본 실습 문제 ]
-1. 계산기 프로그램 (계산기 클래스 작성)   ( 1:'+', 2:'-', 3:'*', 4:'/', 0:end )
-    (구현될 클래스 예시: Calculator, ControlCalculator, ViewCalculator )
+ 
+1. 계산기 프로그램 (계산기 클래스 작성)
+( 1:'+', 2:'-', 3:'*', 4:'/', 0:end )
+(구현될 클래스 예시: Calculator, ControlCalculator, ViewCalculator )
 
 2. 학생 클래스를 이용하여 다음과 같이 출력하는 프로그램
    ( 학생수는 최대 10명이내에 대한 처리, 
