@@ -38,6 +38,6 @@
 <map()함수의 기능>
 def multi_two(x):
     return x*2
-result = map(multi_two,[1,2,3,4,])
+result = map(multi_two,[1,2,3,4])
 print(list(result))
 출력 결과 :[2, 4, 6, 8]
