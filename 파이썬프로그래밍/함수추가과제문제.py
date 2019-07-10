@@ -143,7 +143,7 @@ def input_number_to_sum_abs():
     while True:
         number1 = int(input('number1(0 to quit)='))
         if number1 == 0 : break
-        number2 = int(input('number20 to quit)='))
+        number2 = int(input('number2 to quit)='))
         if number2 == 0 : break
         print(number1,'and',number2,'==>',sum_abs(number1,number2))
 
