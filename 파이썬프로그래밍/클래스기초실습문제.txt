@@ -47,14 +47,15 @@
  turn('오른쪽')   : " 자동차의 방향이  [ 오른쪽 ]으로 변경되었습니다"
 	          car_direction의  값을 변경
 
- stop() :   "자동차가 정지 하였습니다"   
-	car_direction의  값을 [정지]로 변경
+ stop() :   "자동차가 정지 하였습니다"  
+         car_direction의  값을 변경
+	car_direction의  값을 [ 정지 ]로 변경
  
  start() :  "자동차가 시동이 걸렸습니다"
 
- move_forward(): "자동차가 전진합니다 속도는 100km입니다"
+ move_forward(): "자동차가 [ 전진 ]합니다 속도는 [ 100 ]km입니다"
            속도값은 car_speed를 사용, car_direction의  값을  '앞쪽'으로 변경 
- move_backward() :"자동차가 후진합니다 속도는 100km입니다"
+ move_backward() :"자동차가 [ 후진 ]합니다 속도는 [ 100km ]입니다"
            속도값은 car_speed를 사용, car_direction의  값을  '뒤쪽'으로 변경 
 
  __del__( )   : "[ 산타페 ] 자동차가 제거되었습니다"
