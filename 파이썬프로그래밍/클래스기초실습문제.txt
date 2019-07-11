@@ -55,7 +55,7 @@
 
  move_forward(): "자동차가 [ 전진 ]합니다 속도는 [ 100 ]km입니다"
            속도값은 car_speed를 사용, car_direction의  값을  '앞쪽'으로 변경 
- move_backward() :"자동차가 [ 후진 ]합니다 속도는 [ 100km ]입니다"
+ move_backward() :"자동차가 [ 후진 ]합니다 속도는 [ 100 ] km 입니다"
            속도값은 car_speed를 사용, car_direction의  값을  '뒤쪽'으로 변경 
 
  __del__( )   : "[ 산타페 ] 자동차가 제거되었습니다"
@@ -97,5 +97,5 @@
  get_car_fuel(sonata) : 설정된 연료 방식(car_fuel) 을 반환
 
  get_fixed_list(sonata) :  수리내역과 비용을 알려준다, 
-                           문자열 완성해서로 반환해준다--> '[브레이크고장] : [1000]원'
+                           문자열로 완성해서 반환해준다--> '[브레이크고장] : [1000]원'
 
