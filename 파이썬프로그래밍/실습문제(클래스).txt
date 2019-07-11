@@ -7,7 +7,7 @@
     <구현될 클래스>
     (1) Calculator 클래스  : calculate() 메소드를 구현 eval()을 사용 4칙 연산 수행    
      생성자에서 인스턴스 멤버를 하나 만들고 초기값을 { 1:'+', 2:'-', 3:'*', 4:'/' } 으로 설정
-    
+   
     (2) ControlCalculator 클래스 : 
           생성자에 Calculator 클래스의 인스턴스 객체를
           멤버로 만들어 놓고  calculate() 메소드를 구현 하여
@@ -25,9 +25,9 @@
         viewCalculator.DisplayCalculator()
     
     <클래스의 메서드 호출 순서 정리>
-    ViewCalculator 클래스 DisplayCalculator() -->
-    ControlCalculator 클래스 calculate()  -->
-    Calculator 클래스 calculate() 메서드 순으로 호출된다
+    ViewCalculator 클래스의 DisplayCalculator() -->
+    ControlCalculator 클래스의 calculate()  -->
+    Calculator 클래스의 calculate() 메서드 순으로 호출된다
     
 
 2. 학생 클래스를 이용하여 다음과 같이 출력하는 프로그램
@@ -63,4 +63,12 @@
     if __name__ == '__main__':
         viewScoreTable = ViewScoreTable()
         viewScoreTable.ViewMenu()
-	
+
+    <클래스의 메서드 호출 순서 정리>
+    ViewScoreTable 클래스의 ViewMenu() --> inputStudentInfo()-->
+    Student 클래스의 생성자와
+    ControlScoreTable 클래스의 inputStudentInfo()
+    
+    ViewScoreTable 클래스의 ViewMenu() --> printScoreTable() -->
+    ControlScoreTable 클래스의 printScoreTable() -->
+    Student 클래스의 printStudentInfo
