@@ -159,3 +159,43 @@ def test_carcenter(car):
 
 
 # test_carcenter(sonata)
+
+# 별도의 파일로 작성한다
+import 클래스기초실습문제 as car
+
+avante = car.Car()
+avante.set_car_name('아반테')
+print(avante.get_car_name())
+avante.set_car_state('전조등고장')
+print(avante.car_state)
+
+print('-'*30)
+ct1 = car.CarCenter()
+ct1.fix_car(avante)
+ct1.set_car_drv(avante, '후륜')
+print(ct1.get_car_drv(avante))
+
+ct1.set_car_fuel(avante, '수소')
+print(ct1.get_car_fuel(avante))
+print(ct1.get_fixed_list(avante))
+
+
+sorento = car.Car()
+sorento.set_car_name('소렌토')
+sorento.set_car_state('타이어펑크')
+ct1.fix_car(sorento)
+print(ct1.get_fixed_list(sorento))
+
+pride = car.Car()
+pride.set_car_name('프라이드')
+pride.set_car_state('엔진오일부족')
+ct1.fix_car(pride)
+print(ct1.get_fixed_list(pride))
+
+pride.set_car_state('타이어펑크')
+ct1.fix_car(pride)
+print(ct1.get_fixed_list(pride))
+
+print(ct1.fixed_list)
+# {'아반테': '전조등고장', '소렌토': '타이어펑크',
+# '프라이드': '엔진오일부족'}
