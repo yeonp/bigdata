@@ -97,4 +97,65 @@ def test_car_class():
 
     return sonata
 
-sonata = test_car_class()
+# sonata = test_car_class()
+
+# print('-'*30)
+
+# 2번
+
+class CarCenter:
+    price = {'정상': 10, '브레이크고장': 1000, '전조등고장': 2000, '후미등고장': 3000, '연료부족': 4000,
+            '타이어펑크': 5000, '엔진오일부족': 6000, '냉각수부족': 7000, '폐차처리': 9000}
+
+    def __init__(self):
+        self.fix_cost = 0
+        self.fixed_list = {}
+        # self.accent = Car()
+
+    def fix_car(self,car):
+
+        self.fix_cost = CarCenter.price[car.car_state]
+        self.fixed_list[car.car_name] = car.car_state
+        print('[',car.car_name,']의 [',car.car_state,
+              '] 수리 완료, 비용은 [',self.fix_cost,'] 원 입니다')
+
+    def set_car_drv(self,car, drv):
+        car.car_drv = drv
+        # self.accent.car_drv = drv
+        print("차의 구동 방식이 [", car.car_drv ,"]으로 변경 되었습니다")
+
+    def get_car_drv(self,car):
+        return car.car_drv
+
+    def set_car_fuel(self,car,fuel):
+        car.car_fuel = fuel
+        print("차의 연료 방식이 [", car.car_fuel,"]로 변경 되었습니다")
+
+    def get_car_fuel(self,car):
+        return car.car_fuel
+
+    def get_fixed_list(self,car):
+        fixed_item = self.fixed_list[car.car_name]
+        cost = CarCenter.price[fixed_item]
+        return '[' + fixed_item + '] : [' + str(cost) + ']원'
+
+    def __del__(self):
+        pass
+
+def test_carcenter(car):
+    sonata = car
+
+    ct1 = CarCenter()
+
+    ct1.fix_car(sonata)
+
+    ct1.set_car_drv(sonata,'후륜')
+    print(ct1.get_car_drv(sonata))
+
+    ct1.set_car_fuel(sonata, '전기')
+    print(ct1.get_car_fuel(sonata))
+
+    print(ct1.get_fixed_list(sonata))
+
+
+# test_carcenter(sonata)
