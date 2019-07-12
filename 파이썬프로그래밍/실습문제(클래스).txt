@@ -47,7 +47,7 @@
     students 리스트 인스턴스 멤버를 만들고
     inputStudentInfo() 메서드를 만들어 students 리스트에 정보를 추가한다
     printScoreTable() 메서드를 만들어 Student 클래스의 printStudentInfo()
-    메서드를 호출하여 이름,성적들,총점,평균,등급을 출력한다
+    메서드를 호출하여 출력하게한다
 
   (3) ViewScoreTable 클래스 :
     생성자에  ControlScoreTable 클래스 인스턴스 객체를
@@ -56,7 +56,7 @@
        ControlScoreTable 클래스의 inputStudentInfo()를 
     호출하여 students 리스트에 정보를 추가한다
     printScoreTable()메서드를 만들어  ControlScoreTable 클래스의 
-    printScoreTable()를 호출하여 이름,성적들,총점,평균,등급을 출력한다
+    printScoreTable()를 호출하여 출력하게한다
     ViewMenu() 메서드에서 inputStudentInfo()와 printScoreTable()를 호출한다
 
     <메인 호출부분을 아래와 같이 구현한다>	
