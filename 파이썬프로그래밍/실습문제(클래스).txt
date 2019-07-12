@@ -53,7 +53,7 @@
     생성자에  ControlScoreTable 클래스 인스턴스 객체를
     멤버로 만들어 놓고 
     inputStudentInfo() 메서드를 만들고 무한 루프로 학생 이름과 성적을 입력받아
-    네임드 튜플을 만들어서   ControlScoreTable 클래스의 inputStudentInfo()를 
+       ControlScoreTable 클래스의 inputStudentInfo()를 
     호출하여 students 리스트에 정보를 추가한다
     printScoreTable()메서드를 만들어  ControlScoreTable 클래스의 
     printScoreTable()를 호출하여 이름,성적들,총점,평균,등급을 출력한다
