@@ -16,7 +16,7 @@
 tv 5000 2 10000
 vtr 3000 1 3000
 camera 1000 7 7000
-computer 4000 0 0
+computer 4000 1 40000
 monitor 2500 3 7500
 
 <salesTable.txt>파일에 저장되는 포맷
@@ -24,9 +24,9 @@ monitor 2500 3 7500
 	     *** Sales Table ***
 
 	tv          5000   2    10000
-	vtr         3000   0        0
+	vtr         3000   3     9000
 	camera      1000   5     5000
-	computer    4000   0        0
+	computer    4000   2     8000
 
 < 메뉴 사용 순서 >
 
@@ -63,5 +63,51 @@ Input quantity : 2
         2. 판매 정보 등록
         3. 판매 현황표 출력
         0. 종료
+        select menu :  1
+
+Input item name : vtr
+Input price : 3000
+
+        1. 품목 정보 등록
+        2. 판매 정보 등록
+        3. 판매 현황표 출력
+        0. 종료
+        select menu :  2
+
+
+Input item name : vtr
+Input quantity : 3
+
+        1. 품목 정보 등록
+        2. 판매 정보 등록
+        3. 판매 현황표 출력
+        0. 종료
+        select menu :  3
+
+	     *** Sales Table ***
+
+	tv          5000   2    10000
+	vtr         3000   3     9000
+        
+	.... (반복하여 모두 입력후)
+	
+        1. 품목 정보 등록
+        2. 판매 정보 등록
+        3. 판매 현황표 출력
+        0. 종료
+        select menu :  3
+
+	     *** Sales Table ***
+
+	tv          5000   2    10000
+	vtr         3000   3     9000
+	camera      1000   5     5000
+	computer    4000   2     8000	
+
+        1. 품목 정보 등록
+        2. 판매 정보 등록
+        3. 판매 현황표 출력
+        0. 종료
         select menu :  0
+	
 Process finished with exit code 0
