@@ -7,26 +7,11 @@
 		
   1. 품목 정보 등록	   -> items.txt 파일에 기록
   2. 판매 정보 등록	   -> 1. items.txt 파일내용을 메모리로 읽어온 후 검색    
-                                 2. items.txt 파일 검색후 갱신
+                           2. items.txt 파일 검색후 갱신
   3. 판매 현황표 출력   -> 화면 출력과 salesTable.txt 파일에 기록
   0. 종료	
 
 
-<items.txt> 파일에 저장되는 포맷
-tv 5000 2 10000
-vtr 3000 1 3000
-camera 1000 7 7000
-computer 4000 1 40000
-monitor 2500 3 7500
-
-<salesTable.txt>파일에 저장되는 포맷
-
-	     *** Sales Table ***
-
-	tv          5000   2    10000
-	vtr         3000   3     9000
-	camera      1000   5     5000
-	computer    4000   2     8000
 
 < 메뉴 사용 순서 >
 
@@ -111,3 +96,21 @@ Input quantity : 3
         select menu :  0
 	
 Process finished with exit code 0
+
+- 프로그램 실행 후 결과 파일
+
+<items.txt> 파일에 저장되는 포맷
+tv 5000 2 10000
+vtr 3000 1 3000
+camera 1000 7 7000
+computer 4000 1 40000
+monitor 2500 3 7500
+
+<salesTable.txt>파일에 저장되는 포맷
+
+	     *** Sales Table ***
+
+	tv          5000   2    10000
+	vtr         3000   3     9000
+	camera      1000   5     5000
+	computer    4000   2     8000
