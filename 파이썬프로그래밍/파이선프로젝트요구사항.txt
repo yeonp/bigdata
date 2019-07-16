@@ -1,3 +1,5 @@
+   <파이선 프로젝트 요구사항>
+   
    - csv flie을 읽어서 data frame을 작성한다. 
    
    - data frame 내용을 출력한다.
