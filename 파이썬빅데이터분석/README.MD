@@ -1,2 +1,2 @@
 
-pip install numpy pandas matplotli scipy seaborn sklearn
+pip install numpy pandas matplotlib scipy seaborn sklearn
