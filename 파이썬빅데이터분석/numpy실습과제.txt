@@ -1,4 +1,4 @@
-[numpy 실습 과제]
+[numpy 기본 실습 과제]
 
 1. scipy.misc 모듈의 face()함수로 얻어온 미국 너구리(raccoon) 
    얼굴 사진(face)을 아래 내용대로 변환 하는 코드를 구현하세요
