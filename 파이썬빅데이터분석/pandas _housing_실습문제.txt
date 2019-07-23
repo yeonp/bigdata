@@ -1,18 +1,19 @@
 
-* pandas ½Ç½À
+* pandas ì‹¤ìŠµ
 
-[°úÁ¦ 1] :  Boston Housing Data Set Åë°è Ãâ·ÂÇÏ±â
-https://www.guru99.com/linear-regression-tensorflow.html  »çÀÌÆ®¿¡ Á¢¼ÓÇÏ¿©
-»ó´ÜÀÇ Download Boston DataSet  À» ´­·¯ boston_train.zip À» ´Ù¿î ¹Ş°í ¾ĞÃà ÇØÁ¦ÇÑ´Ù
-boston_train.csv ÆÄÀÏÀ» ¿öµåÆĞµå³ª ¸Ş¸ğÀåÀ¸·Î ¿­¾î¼­ µ¥ÀÌÅÍ Å©±â Á¤º¸¸¦ ³ªÅ¸³»´Â Ã³À½ µÎ°³ µ¥ÀÌÅÍ(400,9)¸¦ »èÁ¦ÇÏ°í
-´Ù½Ã ÀúÀåÇÑ´ÙÀ½ ÆÄÀÌ½ã ÇÁ·ÎÁ§Æ® ÀÛ¾÷ µğ·ºÅä¸®¿¡ º¹»çÇØ ³õ´Â´Ù
-boston_train.csv ÆÄÀÏÀ» pandas·Î ÀĞ¾î¼­ °¢ ¿­ÀÇ Åë°è¸¦ Ãâ·ÂÇÏ´Â ÄÚµå¸¦ ±¸ÇöÇÏ¼¼¿ä
+[ê³¼ì œ 1] :  Boston Housing Data Set í†µê³„ ì¶œë ¥í•˜ê¸°
+https://www.guru99.com/linear-regression-tensorflow.html  ì‚¬ì´íŠ¸ì— ì ‘ì†í•˜ì—¬
+ìƒë‹¨ì˜ Download Boston DataSet  ì„ ëˆŒëŸ¬ boston_train.zip ì„ ë‹¤ìš´ ë°›ê³  ì••ì¶• í•´ì œí•œë‹¤
+boston_train.csv íŒŒì¼ì„ ì›Œë“œíŒ¨ë“œë‚˜ ë©”ëª¨ì¥ìœ¼ë¡œ ì—´ì–´ì„œ ë°ì´í„° í¬ê¸° ì •ë³´ë¥¼ ë‚˜íƒ€ë‚´ëŠ” ì²˜ìŒ ë‘ê°œ ë°ì´í„°(400,9)ë¥¼ ì‚­ì œí•˜ê³ 
+ë‹¤ì‹œ ì €ì¥í•œë‹¤ìŒ íŒŒì´ì¬ í”„ë¡œì íŠ¸ ì‘ì—… ë””ë ‰í† ë¦¬ì— ë³µì‚¬í•´ ë†“ëŠ”ë‹¤
+boston_train.csv íŒŒì¼ì„ pandasë¡œ ì½ì–´ì„œ ê° ì—´ì˜ í†µê³„ë¥¼ ì¶œë ¥í•˜ëŠ” ì½”ë“œë¥¼ êµ¬í˜„í•˜ì„¸ìš”
 
-[°úÁ¦ 2] :  Boston Housing Data Set µ¥ÀÌÅÍ ¿¬¼âÇÏ±â
-boston_train.csv ÆÄÀÏ°ú boston_test.csv ÆÄÀĞÀ» pandas·Î ¸ğµÎ ÀĞ¾î¼­ 
-boston_train.csv  ¿¡¼­´Â Ã³À½ 10°³ Çà°ú  boston_test.csv ÀÇ Ã³À½ 10°³ ÇàÀ» Â÷·Ê´ë·Î ÇÏ³ª·Î ÇÕÃÄ
-°á°ú¸¦ Ãâ·ÂÇÏ°í boston_batch.csv ÆÄÀÏ·Î ÀúÀåÇÏ´Â ÄÚµå¸¦ ±¸ÇöÇÏ¼¼¿ä
+[ê³¼ì œ 2] :  Boston Housing Data Set ë°ì´í„° ì—°ì‡„í•˜ê¸°
+boston_train.csv íŒŒì¼ê³¼ boston_test.csv íŒŒì½ì„ pandasë¡œ ëª¨ë‘ ì½ì–´ì„œ 
+boston_train.csv  ì—ì„œëŠ” ì²˜ìŒ 10ê°œ í–‰ê³¼  boston_test.csv ì˜ ì²˜ìŒ 10ê°œ í–‰ì„ ì°¨ë¡€ëŒ€ë¡œ í•˜ë‚˜ë¡œ í•©ì³
+ê²°ê³¼ë¥¼ ì¶œë ¥í•˜ê³  boston_batch.csv íŒŒì¼ë¡œ ì¸ë±ìŠ¤ ê°’ì„ ì œì™¸í•˜ê³ 
+ì €ì¥í•˜ëŠ” ì½”ë“œë¥¼ êµ¬í˜„í•˜ì„¸ìš”
 
-[°úÁ¦ 3] :  Boston Housing Data Set ÇÇ¹ş Å×ÀÌºí »ı¼º ÇÏ±â
-boston_train.csv ÆÄÀÏÀ» °¢ 10°³ÀÇ ¿­¿¡ ´ëÇÑ ÇÇ¹ş Å×ÀÌºíÀ» Ãâ·ÂÇÏ´Â ÄÚµå¸¦ ±¸ÇöÇÏ¼¼¿ä
-sum,mean,medianmin,max¸¦ Ãâ·Â½ÃÅ²´Ù
+[ê³¼ì œ 3] :  Boston Housing Data Set í”¼ë²— í…Œì´ë¸” ìƒì„± í•˜ê¸°
+boston_train.csv íŒŒì¼ì„ ê° 10ê°œì˜ ì—´ì— ëŒ€í•œ í”¼ë²— í…Œì´ë¸”ì„ ì¶œë ¥í•˜ëŠ” ì½”ë“œë¥¼ êµ¬í˜„í•˜ì„¸ìš”
+sum,mean,medianmin,maxë¥¼ ì¶œë ¥ì‹œí‚¨ë‹¤
