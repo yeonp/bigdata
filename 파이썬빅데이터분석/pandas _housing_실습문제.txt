@@ -15,5 +15,5 @@ boston_train.csv  에서는 처음 10개 행과  boston_test.csv 의 처음 10�
 저장하는 코드를 구현하세요
 
 [과제 3] :  Boston Housing Data Set 피벗 테이블 생성 하기
-boston_train.csv 파일을 각 10개의 열에 대한 통계를 출력하는 코드를 구현하세요
+boston_train.csv 파일을 각 열(총 10개)에 대한 통계를 출력하는 코드를 구현하세요
 sum,mean,median,min,max를 출력시킨다
