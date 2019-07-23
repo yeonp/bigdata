@@ -1,5 +1,7 @@
 < pandas 기본실습> 
 
+boston_train.zip 파일을 다운 받아 압축을 풀고
+파이썬 소스 디렉토리에 복사해놓는다
 
 1. pandas로 boston_train.csv 파일을  읽어서
 
