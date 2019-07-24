@@ -25,11 +25,6 @@ boston_train.csv  에서는 처음 10개 행과  boston_test.csv 의 처음 10�
 boston_train.csv 파일을 각 열(총 10개)에 대한 통계를 출력하는 코드를 구현하세요
 sum,mean,median,min,max를 출력시킨다
 
-[과제 4] :  Boston Housing Data Set 조건 검색 출력
-boston_train.csv 파일을 사용하여 조건 검색 결과를 출력하는 코드를 구현하세요
-  4.1  'CRIM' 열의 평균값 보다 큰 값들만 출력
-  4.2  'AGE' 열의 평균값 보다 작은 값들만 출력
-  4.3  'MEDV' 열의 중앙값 보다 작은 값들만 출력
 
 
 
