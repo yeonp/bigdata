@@ -17,7 +17,8 @@ boston_train.csv 파일을 사용하여 불리언 조건 검색 결과를
 
 [과제 3] :  Boston Housing Data Set 데이터 연쇄하기
 boston_train.csv 파일과 boston_test.csv 파읽을 pandas로 모두 읽어서 
-boston_train.csv  에서는 처음 10개 행과  boston_test.csv 의 처음 10개 행을 차례대로 하나로 합쳐
+boston_train.csv  에서는 처음 10개 행과  boston_test.csv 의 처음
+10개 행을 차례대로 하나로 합쳐
 결과를 출력하고 boston_batch.csv 파일로 인덱스 값을 제외하고
 저장하는 코드를 구현하세요
 
