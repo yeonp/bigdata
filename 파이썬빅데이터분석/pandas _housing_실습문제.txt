@@ -14,6 +14,6 @@ boston_train.csv  에서는 처음 10개 행과  boston_test.csv 의 처음 10�
 결과를 출력하고 boston_batch.csv 파일로 인덱스 값을 제외하고
 저장하는 코드를 구현하세요
 
-[과제 3] :  Boston Housing Data Set 피벗 테이블 생성 하기
+[과제 3] :  Boston Housing Data Set 열의 통계 출력
 boston_train.csv 파일을 각 열(총 10개)에 대한 통계를 출력하는 코드를 구현하세요
 sum,mean,median,min,max를 출력시킨다
