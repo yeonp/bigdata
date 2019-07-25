@@ -14,11 +14,8 @@ https://archive.ics.uci.edu/ml/index.php
 employee = [{'empno':1, 'ename':'kim', 'dept':1}, 
 
             {'empno':2, 'ename':'lee', 'dept':2}, 
-            
             {'empno':3, 'ename':'park', 'dept':1}, 
-            
             {'empno':4, 'ename':'song', 'dept':3},
-            
             {'empno':5, 'ename':'min', 'dept':2} ]
             
 
@@ -30,9 +27,6 @@ dept=[{'dept':1, 'deptname':'관리직'},
 info =[{'empno':1, 'addr':'서울시','phone':'010-1111-1111'},
 
        {'empno':3, 'addr':'부산시','phone':'010-2222-2222'}, 
-       
        {'empno':2, 'addr':'광주시','phone':'010-3333-3333'}, 
-       
        {'empno':5, 'addr':'광주시','phone':'010-4444-4444'},
-       
        {'empno':4, 'addr':'광주시','phone':'010-5555-5555'} ]
