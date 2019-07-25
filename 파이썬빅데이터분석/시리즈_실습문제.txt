@@ -1,3 +1,5 @@
+[Series 사용 실습 과제]
+
 Pandas의 Series 데이터구조를 이용하여 다음과 같은 기능을 구현하세요. 
 append()와 contains()메소드 사용
 
@@ -37,5 +39,4 @@ append()와 contains()메소드 사용
 tv    10
 
 
-9.종료
-
+9.종료 : 프로그램을 종료시킨다
