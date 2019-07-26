@@ -2,16 +2,16 @@
 pip install numpy pandas matplotlib scipy seaborn sklearn
 
 
-
+=================================
 
 - UCI Machine Learning Repository
     
-https://archive.ics.uci.edu/ml/index.php
+    https://archive.ics.uci.edu/ml/index.php
 
 
 
-
-- merge() 예제
+=================================
+- merge() 예제 리스트 데이터셋
 
 employee = [{'empno':1, 'ename':'kim', 'dept':1}, 
 
@@ -34,7 +34,7 @@ info =[{'empno':1, 'addr':'서울시','phone':'010-1111-1111'},
        {'empno':4, 'addr':'광주시','phone':'010-5555-5555'} ]
        
 =================================
-
+- grouby() 예제 데이터셋
 from numpy.random import seed
 
 from numpy.random import random
