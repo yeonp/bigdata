@@ -35,6 +35,7 @@ info =[{'empno':1, 'addr':'서울시','phone':'010-1111-1111'},
        
 =================================
 - grouby() 예제 데이터셋
+
 from numpy.random import seed
 
 from numpy.random import random
