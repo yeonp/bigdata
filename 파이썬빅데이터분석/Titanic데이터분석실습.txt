@@ -19,7 +19,7 @@
   ◾Embarked: 탑승 항구 => C = Cherbourg, Q = Queenstown, S = Southampton
 
   
-  1.1 컬럼별 통계를 출력하세요
+  1.1 titanic_new.csv로 저장하고 컬럼별 통계를 출력하세요
   
   1.2 결측치를 평균값으로 수정하여 titanic_new.csv 로 저장하세요
   
