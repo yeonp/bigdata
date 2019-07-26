@@ -30,3 +30,12 @@ info =[{'empno':1, 'addr':'서울시','phone':'010-1111-1111'},
        {'empno':2, 'addr':'광주시','phone':'010-3333-3333'}, 
        {'empno':5, 'addr':'광주시','phone':'010-4444-4444'},
        {'empno':4, 'addr':'광주시','phone':'010-5555-5555'} ]
+       
+==================================================================
+seed(42)
+df = pd.DataFrame({
+   'Weather' : ['cold', 'hot', 'cold', 'hot',
+   'cold', 'hot', 'cold'],
+   'Food' : ['soup', 'soup', 'icecream', 'chocolate',
+   'icecream', 'icecream', 'soup'],
+   'Price' : 10 * rand(7), 'Number' : randint(1, 9)})
