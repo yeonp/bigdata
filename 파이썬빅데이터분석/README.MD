@@ -41,6 +41,8 @@ seed(42)
 df = pd.DataFrame({
    'Weather' : ['cold', 'hot', 'cold', 'hot',
    'cold', 'hot', 'cold'],
+   
    'Food' : ['soup', 'soup', 'icecream', 'chocolate',
    'icecream', 'icecream', 'soup'],
+   
    'Price' : 10 * rand(7), 'Number' : randint(1, 9)})
