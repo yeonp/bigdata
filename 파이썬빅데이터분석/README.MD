@@ -51,4 +51,4 @@ df = pd.DataFrame({
    'Food' : ['soup', 'soup', 'icecream', 'chocolate',
    'icecream', 'icecream', 'soup'],
    
-   'Price' : 10 * rand(7), 'Number' : randint(1, 9)})
+   'Price' : 10 * rand(7), 'Number' : randint(1, 9, 7)})
