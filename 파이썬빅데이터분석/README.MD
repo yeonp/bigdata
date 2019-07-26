@@ -34,7 +34,7 @@ info =[{'empno':1, 'addr':'서울시','phone':'010-1111-1111'},
        {'empno':4, 'addr':'광주시','phone':'010-5555-5555'} ]
        
 =================================
-- grouby() 예제 데이터셋
+- grouby() 와 pivot_table() 예제 데이터셋
 
 from numpy.random import seed
 
