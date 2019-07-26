@@ -38,6 +38,7 @@ from numpy.random import random
 from numpy.random import randint
 
 seed(42)
+
 df = pd.DataFrame({
    'Weather' : ['cold', 'hot', 'cold', 'hot',
    'cold', 'hot', 'cold'],
