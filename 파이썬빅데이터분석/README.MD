@@ -9,6 +9,8 @@ pip install numpy pandas matplotlib scipy seaborn sklearn
 https://archive.ics.uci.edu/ml/index.php
 
 
+
+
 - merge() 예제
 
 employee = [{'empno':1, 'ename':'kim', 'dept':1}, 
