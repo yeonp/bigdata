@@ -49,6 +49,6 @@ append()와 contains()메소드 사용
 종료합니다
 
 (문제 2번)
-WHO_first9cols.csv 파일을 읽어와서 컬럼별 결측치(Nan) 데이터수를
+WHO_first9cols.csv 파일을 읽어와서 컬럼별 결측치(NaN) 데이터수를
 출력한 후에 결측치가 있는 컬럼을 컬럼내의 평균값으로 모두 변경하여 
 WHO_NoNaN.csv 파일로 저장하는 프로그램을 구현하세요
