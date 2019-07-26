@@ -31,7 +31,8 @@ info =[{'empno':1, 'addr':'서울시','phone':'010-1111-1111'},
        {'empno':5, 'addr':'광주시','phone':'010-4444-4444'},
        {'empno':4, 'addr':'광주시','phone':'010-5555-5555'} ]
        
-==================================================================
+=================================
+
 from numpy.random import seed
 from numpy.random import random
 from numpy.random import randint
