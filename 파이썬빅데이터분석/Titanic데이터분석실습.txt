@@ -56,8 +56,19 @@
                 
                 
                 
-2. 시각화
-   2.1 생존자와 사망자의 수를 pie 차트로 그리시오
-   
-   2.1 등급별 티켓 비용(fare)의 평균을  bar 차트로 그리시오
+2. 시각화 실습문제
+
+   2.1 생존자와 사망자의 수를 pie 차트로 그리시오(matplotlib)
+
+   2.2 등급별 티켓 비용(fare)의 평균을  barplot으로 그리시오(seaborn)
+
+   2.3 성(Sex)별 생존자와 사망자의 수를 countplot 으로 그리시오(seaborn)
+
+   2.4  상관 관계 heatmap을 출력하시요 (seaborn)
+
+   2.5 나이(age) 분포도를 그리시오 (seaborn)
+       결측치는 평균값으로 수정
+
+   2.6 객실의 등급(pclass)별 'age'의 분포를 boxplot으로 그리시오(seaborn)
+
    
