@@ -66,7 +66,7 @@
 
    2.4  상관 관계 heatmap을 출력하시요 (seaborn)
 
-   2.5 나이(age) 분포도를 그리시오 (seaborn)
+   2.5 나이(age) 분포도(distplot)를 그리시오 (seaborn)
        결측치는 평균값으로 수정
 
    2.6 객실의 등급(pclass)별 'age'의 분포를 boxplot으로 그리시오(seaborn)
