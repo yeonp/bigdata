@@ -16,10 +16,14 @@ print("b\n", b)
 
 x = np.linalg.solve(A, b)
 print("Solution : ", x) # [10.  5. -3.]
+print('Check:',np.dot(A,x))
 
+# 역행렬로 답 구하기
 inverse = np.linalg.inv(A)
 x = np.dot(inverse,b)
 print('using inverse:',x)
+
+
 
 
 
