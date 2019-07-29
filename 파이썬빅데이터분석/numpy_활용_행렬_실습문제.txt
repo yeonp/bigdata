@@ -18,7 +18,7 @@
       b = np.arange(6).reshape(3,2)
 
       <출력 결과>
-         a.dot(b):
+      a.dot(b):
       [[10 13]
        [28 40]]
 
