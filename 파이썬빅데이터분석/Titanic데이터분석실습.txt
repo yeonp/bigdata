@@ -41,3 +41,14 @@
   1.10  나이를 'age_class' 이름으로 3등급('young','middle','old')으로 나누고 
        index를 'sex'와 'age_class'로 columns을 'pclass'로 하는
        3등급별(pclass) 평균 생존률을 구하시오
+       
+       <출력결과>
+       
+         pclass                   1         2         3
+         sex    age_class                              
+         female young      0.954545  1.000000  0.508475
+                midlle     0.947368  0.909091  0.481481
+                old        0.977273  0.857143  0.250000
+         male   young      0.500000  0.357143  0.158879
+                midlle     0.500000  0.076923  0.195652
+                old        0.347826  0.062500  0.055556       
