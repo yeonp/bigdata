@@ -6,19 +6,23 @@
        'CRIM'과 'MEDV' 컬럼의 데이터를 사용한다
 
    1.2 boston_train.csv 파일을 읽어와서 scatter plot을 출력하세요
+       'CRIM'과 'MEDV' 컬럼의 데이터를 사용한다
 
    1.3 boston_train.csv 파일을 읽어와서 log/scatter plot에 범례와 주석을
       함께 출력하세요
+       'CRIM'과 'MEDV' 컬럼의 데이터를 사용한다
 
-   1.4 boston_train.csv 파일을 읽어와서 3차원 plot을 출력하세요
+   1.4 boston_train.csv와 boston_test.csv파일을 읽어와서 3차원
+       plot을 출력하세요
 
-   1.5 boston_train.csv 파일을 읽어와서 지연 plot을 출력하세요
+   1.5 boston_train.csv와 boston_test.csv파일을 읽어와서 지연 plot을 
+       출력하세요
 
-
-   1.6 boston_train.csv 파일을 읽어와서 자기 상관 plot을 출력하세요
+   1.6 boston_train.csv와 boston_test.csv파일을 읽어와서 자기 상관 plot을
+       출력하세요
 
    1.7 boston_train.csv 파일을 읽어와서 pandas를 사용해서
-      box plot을 출력하세요
+       box plot을 출력하세요
 
 
 2. 성적 출력 실습문제
