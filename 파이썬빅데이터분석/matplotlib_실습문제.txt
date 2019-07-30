@@ -1,40 +1,43 @@
-[ matplotlib 기본 실습]
+[ matplotlib  실습]
 
+1. Boston 데이터 시각화 실습 문제 
+
+   1.1 boston_train.csv 파일을 읽어와서 log plot을 출력하세요
+
+   1.2 boston_train.csv 파일을 읽어와서 scatter plot을 출력하세요
+
+   1.3 boston_train.csv 파일을 읽어와서 log/scatter plot에 범례와 주석을
+      함께 출력하세요
+
+   1.4 boston_train.csv 파일을 읽어와서 3차원 plot을 출력하세요
+
+   1.5 boston_train.csv 파일을 읽어와서 지연 plot을 출력하세요
+
+
+   1.6 boston_train.csv 파일을 읽어와서 자기 상관 plot을 출력하세요
+
+   1.7 boston_train.csv 파일을 읽어와서 pandas를 사용해서
+      box plot을 출력하세요
+
+
+2. 성적 출력 실습묹[
 <데이터셋>
    kor = [50,20,80,90,50,30,70,80,90,50]
    eng = [20,90,30,10,70,60,20,50,40,50]
    math = [20,30,50,20,25,65,100,23,40,47]
    name = ['홍','순','임','이','황','김1','김2','김3','김4','김5']
 
- 1. 국어, 영어 점수에 대한 바차트를 그리시오
+ 2.1 국어, 영어 점수에 대한 바차트를 그리시오
 
- 2. 영어, 수학 점수에 대한 boxplot을 그리시오
+ 2.2 영어, 수학 점수에 대한 boxplot을 그리시오
 
- 3. 이름 별 국어 점수를 파이 차트로 그리시오
+ 2.3 이름 별 국어 점수를 파이 차트로 그리시오
 
- 4. 국어, 영어, 수학 점수를 라인 차트로 그리시오
+ 2.4 국어, 영어, 수학 점수를 라인 차트로 그리시오
 
- 5. 수학 점수에 대한 scatter를 그리고 점수를 text로 표시하시오
+ 2.5 수학 점수에 대한 scatter를 그리고 점수를 text로 표시하시오
 
- 6. 국어, 영어, 수학 점수를 stacked bar로 그리시오 (%표시 할 것)
-
-
-
-[ Boston 데이터 시각화 실습 문제 ]
-
-1. boston_train.csv 파일을 읽어와서 log plot을 출력하세요
-
-2. boston_train.csv 파일을 읽어와서 scatter plot을 출력하세요
-
-3. boston_train.csv 파일을 읽어와서 log/scatter plot에 범례와 주석을
-   함께 출력하세요
-   
-4. boston_train.csv 파일을 읽어와서 3차원 plot을 출력하세요
-
-5. boston_train.csv 파일을 읽어와서 지연 plot을 출력하세요
+ 2.6 국어, 영어, 수학 점수를 stacked bar로 그리시오 (%표시 할 것)
 
 
-6. boston_train.csv 파일을 읽어와서 자기 상관 plot을 출력하세요
 
-7. boston_train.csv 파일을 읽어와서 pandas를 사용해서
-   box plot을 출력하세요
