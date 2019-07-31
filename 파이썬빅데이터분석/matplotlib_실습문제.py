@@ -69,3 +69,24 @@ plt.xlabel("Crime")
 plt.ylabel("Medv", fontsize=16)
 plt.title("1.3 Boston Housing : Crime Medv")
 plt.show()
+
+# 1.4번
+from mpl_toolkits.mplot3d.axes3d import Axes3D
+
+fig = plt.figure()
+ax = Axes3D(fig)
+X = df['CRIM'].values
+
+Y = np.where(df['MEDV'].values>0, np.log(df['MEDV'].values), 0)
+X, Y = np.meshgrid(X, Y)
+
+Z = np.where(df['ZN'].values>0, np.log(df['ZN'].values), 0)
+# Z =Z.reshape(1,Z.shape[0])
+Z,_ =np.meshgrid(Z,0)
+
+ax.plot_surface(X, Y, Z)
+ax.set_xlabel('CRIME')
+ax.set_ylabel('MEDV')
+ax.set_zlabel('ZN')
+ax.set_title("1.4 Boston Housing : Crime/ZN  Medv")
+plt.show()
