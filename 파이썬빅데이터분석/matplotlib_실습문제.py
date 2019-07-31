@@ -121,7 +121,7 @@ plt.text(1, df['TAX'].median(), df['TAX'].median())
 plt.title('1.7.2 Boston TAX Box plot')
 plt.show()
 
-plt.title('1.7.3 Boston TAX Box plot')
 plt.boxplot(df['TAX'],labels=['TAX'])
 plt.text(1, df['TAX'].median(), df['TAX'].median())
+plt.title('1.7.3 Boston TAX Box plot')
 plt.show()
