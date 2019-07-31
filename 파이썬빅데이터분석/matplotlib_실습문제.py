@@ -7,6 +7,9 @@ import matplotlib
 matplotlib.rcParams['font.family'] = 'Malgun Gothic'
 matplotlib.rcParams['axes.unicode_minus'] = False
 
+import warnings
+warnings.filterwarnings("ignore")
+
 df = pd.read_csv('boston_train.csv')
 
 # 1.1번 로그플롯
@@ -89,4 +92,36 @@ ax.set_xlabel('CRIME')
 ax.set_ylabel('MEDV')
 ax.set_zlabel('ZN')
 ax.set_title("1.4 Boston Housing : Crime/ZN  Medv")
+plt.show()
+
+#  1.5번
+from pandas.plotting import lag_plot
+
+lag_plot(np.log(df['MEDV']))
+plt.title('1.5 Boston lag_plot')
+plt.show()
+
+#  1.6번
+from pandas.plotting import autocorrelation_plot
+autocorrelation_plot(np.log(df['MEDV']))
+
+plt.title('1.6 Boston autocorrelation_plot')
+plt.show()
+
+# 1.7번
+
+df.plot.box()
+plt.title('1.7.1 Boston Box plot')
+plt.show()
+
+df['TAX'].plot.box()
+plt.boxplot(df['TAX'],labels=['TAX'])
+plt.text(1, df['TAX'].median(), df['TAX'].median())
+
+plt.title('1.7.2 Boston TAX Box plot')
+plt.show()
+
+plt.title('1.7.3 Boston TAX Box plot')
+plt.boxplot(df['TAX'],labels=['TAX'])
+plt.text(1, df['TAX'].median(), df['TAX'].median())
 plt.show()
