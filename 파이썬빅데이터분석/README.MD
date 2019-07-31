@@ -7,9 +7,19 @@ http://blog.daum.net/fecjf/56
 
 ===================================
 
-matplotlib와 pandas 플로팅 기본 예제:
+- 파이썬을 이용한 데이터분석 교재 예제 소스:
+
+Python-Data-Analysis-Second-Edition-master_translation.zip
+
+
+- matplotlib와 pandas 플로팅 기본 예제:
 
 matplot_pandas.zip
+
+
+- Folium/Seaborn 시각화 예제:
+
+DataScience-master.zip
 
 ===================================
 
