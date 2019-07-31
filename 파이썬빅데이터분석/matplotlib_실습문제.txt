@@ -20,7 +20,7 @@
        출력하세요
 
    1.7 boston_train.csv 파일을 읽어와서 pandas를 사용해서
-       box plot을 출력하세요
+       전체 컬럼의 box plot과 'TAX' 컬럼의 box plot을 출력하세요       
 
 
 
