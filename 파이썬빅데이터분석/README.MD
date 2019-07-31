@@ -2,7 +2,11 @@
 pip install numpy pandas matplotlib scipy seaborn sklearn
 
 
+대한민국 시군 지역별 위도와 경도
+http://blog.daum.net/fecjf/56
+
 ===================================
+
 matplotlib와 pandas 플로팅 기본 예제:
 
 matplot_pandas.zip
