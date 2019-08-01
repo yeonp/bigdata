@@ -23,8 +23,8 @@ Python-Data-Analysis-Second-Edition-master_translation.zip
 matplot_pandas.zip
 
 
-- Folium/Seaborn 시각화 예제
-  서울시 CCT현황 및 범죄율 분석 사례 :
+- Folium/Seaborn 시각화 예제와 
+   서울시 CCT현황 및 범죄율 분석 사례 :
   
 DataScience-master.zip
 
