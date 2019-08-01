@@ -64,7 +64,7 @@
 
    2.3 성(Sex)별 생존자와 사망자의 수를 countplot 으로 그리시오(seaborn)
 
-   2.4  상관 관계 heatmap을 출력하시요 (seaborn)
+   2.4 전체 상관 계수를 heatmap을 출력하시요 (seaborn)
 
    2.5 나이(age) 분포도(distplot)를 그리시오 (seaborn)
        결측치는 평균값으로 수정
