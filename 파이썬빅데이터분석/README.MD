@@ -1,6 +1,11 @@
 
 pip install numpy pandas matplotlib scipy seaborn sklearn
 
+-------------------------------------------------
+한국지도에 대해 json 파일:
+
+https://github.com/southkorea/southkorea-maps
+
 
 대한민국 시군 지역별 위도와 경도
 http://blog.daum.net/fecjf/56
