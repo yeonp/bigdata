@@ -7,7 +7,8 @@ pip install numpy pandas matplotlib scipy seaborn sklearn
 https://github.com/southkorea/southkorea-maps
 
 
-대한민국 시군 지역별 위도와 경도
+대한민국 시군 지역별 위도와 경도:
+
 http://blog.daum.net/fecjf/56
 
 ===================================
