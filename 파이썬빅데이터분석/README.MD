@@ -24,7 +24,7 @@ matplot_pandas.zip
 
 
 - Folium/Seaborn 시각화 예제와 
-   서울시 CCT현황 및 범죄율 분석 사례 :
+   서울시 CCTV현황 및 범죄율 분석 사례 :
   
 DataScience-master.zip
 
