@@ -11,6 +11,13 @@ https://github.com/southkorea/southkorea-maps
 
 http://blog.daum.net/fecjf/56
 
+
+
+
+파이썬 데이터 표준화 관련 참고 사이트:
+
+https://rfriend.tistory.com/268?category=675917
+
 ===================================
 
 - 파이썬을 이용한 데이터분석 교재 예제 소스:
