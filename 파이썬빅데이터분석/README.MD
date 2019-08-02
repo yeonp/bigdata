@@ -2,6 +2,12 @@
 pip install numpy pandas matplotlib scipy seaborn sklearn
 
 -------------------------------------------------
+
+구글 맵 API 키 얻는 방법:
+
+https://pinkwink.kr/1143
+
+
 한국지도에 대해 json 파일:
 
 https://github.com/southkorea/southkorea-maps
