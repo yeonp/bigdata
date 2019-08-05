@@ -123,3 +123,22 @@ plt.subplot(224)
 plt.hist(medv_minmax)
 plt.title('MEDV 정규화')
 plt.show()
+
+
+# 최종 결과
+plt.subplot(221)
+plt.hist(crime_minmax)
+plt.title('CRIM 정규화')
+
+plt.subplot(222)
+plt.hist(zn_minmax)
+plt.title('ZN 정규화')
+
+plt.subplot(223)
+plt.hist(tax_minmax)
+plt.title('TAX 정규화')
+
+plt.subplot(224)
+plt.hist(medv_minmax)
+plt.title('MEDV 정규화')
+plt.show()
