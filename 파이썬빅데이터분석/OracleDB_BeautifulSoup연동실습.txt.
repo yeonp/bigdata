@@ -2,6 +2,8 @@
 
 https://www.yslbeautykr.com/ko_KR/makeup/lips?sz=12&start=0
 사이트의 제품정보를 읽어서 Oracle SQL DB에 저장하는 코드를 구현하세요
+저장한 DB를 읽어서 헤더를 추가해서 데이터 프레임을 생성하여 출력하는 
+코드도 구현한다
 
 계정 : scott/tiger
 테이블 이름 : COSMATIC
