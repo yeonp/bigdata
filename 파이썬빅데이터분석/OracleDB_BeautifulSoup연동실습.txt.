@@ -5,12 +5,18 @@ https://www.yslbeautykr.com/ko_KR/makeup/lips?sz=12&start=0
 
 계정 : scott/tiger
 테이블 이름 : COSMATIC
-컬럼 BRAND, NAME, PRICE, SRC
+컬럼 BRAND(제품명), NAME(sub title명), PRICE(가격), SRC(이미지 URL)
 
+< 테이블 생성 명령 데이터 포맷 >
 CREATE TABLE COSMATIC  (
     BRAND    VARCHAR2(100),
     NAME     VARCHAR2(30),
     PRICE    VARCHAR2(20),
     SRC      VARCHAR2(1000) )
     
-    
+
+<데이터 1개 출력 예시>
+BRAND: 베르니 아 레브르 워터 스테인
+NAME: 워터 틴트
+PRICE: 45,000원
+SRC: https://www.yslbeautykr.com/dw/image/v2/AAWH_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw5bbd6c16/Makeup/Lips/VERNIS A LEVRES WATER STAIN/3614272556539_612_1.png?sw=202&sh=267&sm=fit&q=70
