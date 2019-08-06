@@ -4,7 +4,7 @@ https://www.yslbeautykr.com/ko_KR/makeup/lips?sz=12&start=0
 사이트의 제품정보를 읽어서 Oracle SQL DB에 저장하는 코드를 구현하세요
 
 계정 : scott/tiger
-테이블 이름 : COSMETIC
+테이블 이름 : COSMATIC
 컬럼 BRAND, NAME, PRICE, SRC
 
 CREATE TABLE COSMATIC  (
