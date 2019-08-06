@@ -9,6 +9,7 @@ import urllib
 # import folium
 
 # 1.1
+print('1.1','-'*50)
 baseurl= 'http://www.menupan.com'
 murl = '/restaurant/bestrest/bestrest.asp?pt=rt&areacode=dj201'
 
@@ -33,10 +34,9 @@ for li in ulList.select('li'):
 df= pd.DataFrame(listData)
 print(df)
 
-print('-'*30)
 
 # 1.2
-
+print('1.2','-'*50)
 tel=[]
 addr=[]
 for h in href:
@@ -46,10 +46,14 @@ for h in href:
     saddr = sMenu.select_one('.add1').string
     tel.append( stel )
     addr.append(saddr)
-    print(stel, saddr)
+    # print(stel, saddr)
 
-print('-'*30)
+df['전화번호'] = tel
+df['주소']=addr
+print(df)
+
 # 1.3
+print('1.3','-'*50)
 df.set_index('랭킹',inplace=True)
 # inplace : bool, default False
 # Modify the DataFrame in place (do not create a new object).
@@ -57,13 +61,14 @@ df.set_index('랭킹',inplace=True)
 print(df)
 df.to_excel("menu.xlsx")
 
-print('-'*30)
 
 #  1.4
+print('1.4','-'*50)
 m = df[ df['업종'].str.contains('한식')]
 print(m)
 
-print('-'*30)
+
 #  1.5
+print('1.5','-'*50)
 area = df[ df['지역'].str.contains('대흥')]
 print(area)
