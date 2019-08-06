@@ -1,0 +1,39 @@
+# pip install cx_Oracle
+import cx_Oracle
+import pandas as pd
+import numpy as np
+
+# scott/tiger 접속
+conn = cx_Oracle.connect('scott/tiger@localhost:1521/orcl')
+# conn = cx_Oracle.connect('scott/tiger@192.168.43.112:1521/orcl')
+cursor = conn.cursor()
+
+
+# 테이블 생성
+cursor.execute("""CREATE TABLE EMP_TEMP
+    AS SELECT * FROM EMP""")
+
+# 데이터 추가하기
+cursor.execute("""INSERT INTO EMP_TEMP
+        VALUES (7001,'MrPython','ANALYST',7566,
+        '1980/01/01',1000,50,20 )""")
+conn.commit() 
+
+cursor.execute("SELECT * FROM EMP_TEMP")
+row = cursor.fetchall()
+# print(row)
+
+# 데이터 프레임 생성
+header = ['EMPNO','ENAME','JOB','MGR',
+          'HIREDATE','SAL','COMM','DEPTNO']
+
+df = pd.DataFrame(row,columns=header)
+# print(df)
+
+cursor.execute("DROP TABLE EMP_TEMP")
+conn.commit()    
+
+# 프로그램 종료시에는 아래와 같이 DB 접속을 해제시킨다 
+cursor.close()
+conn.close()
+# df
