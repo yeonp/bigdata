@@ -72,3 +72,33 @@ print(m)
 print('1.5','-'*50)
 area = df[ df['지역'].str.contains('대흥')]
 print(area)
+
+# 1.6
+print('1.6','-'*50)
+import googlemaps
+gmaps_key = "AIzaSyCcw89SLkOaJ5r8xoL3aFkUx0kpu7baLRg" # 자신의 key를 사용합니다.
+gmaps = googlemaps.Client(key=gmaps_key)
+
+def get_lat_lng(addr):
+    area = gmaps.geocode(addr, language='ko')
+    latlng = area[0].get("geometry")
+    lat = latlng['location']['lat']
+    lng = latlng['location']['lng']
+    # print(lat,lng)
+    return lat,lng
+
+
+import folium
+
+lat, lng = get_lat_lng(df['주소'].values[0])
+map = folium.Map(location=[lat, lng], zoom_start=12)
+for addr in range(len(df['주소'].values)):
+    lat, lng = get_lat_lng(df['주소'].values[addr])
+    #     print(lat,lng)
+    #     print(df['주소'].values[addr])
+    #     print(df['상호명'].values[addr])
+    m = folium.Marker([lat, lng], popup=str(addr) + df['상호명'].values[addr],
+                      icon=folium.Icon(icon='cloud')).add_to(map)
+    m.add_to(map)
+
+map.save('Daejoen_맛집.html')
