@@ -141,6 +141,8 @@ def spider(max_pages):
     df = pd.DataFrame(row, columns=header)
     print(df)
 
+    df.to_excel("cosmatic.xlsx")
+
     cursor.execute("""DROP TABLE COSMATIC""")
 
     db.close()
