@@ -5,5 +5,5 @@
  https://hunkim.github.io/ml/
  
  
- 스탠포드대 Andrew Ng의 영어 강의
+ 스탠포드대 앤드류 응(Andrew Ng) 교수의 영어 강의
 https://class.coursera.org/ml-003/lecture
