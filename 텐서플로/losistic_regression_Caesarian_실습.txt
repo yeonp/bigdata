@@ -3,14 +3,12 @@
 연령,분만횟수,분만시기,혈압, 데이터를 사용하여
 Caesarian(제왕절개) 를 예측하는 텐서플로 코드를 구현하세요
 
+데이터 URL:
 https://archive.ics.uci.edu/ml/datasets/Caesarian+Section+Classification+Dataset
 
 
 
-
-
-
-데이터 셋 및 설명
+- 데이터 셋 및 설명
 
 Attribute Information:
 We choose age, delivery number, delivery time, blood pressure and heart status. 
